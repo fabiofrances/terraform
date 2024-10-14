@@ -1,2 +1,6 @@
 .aws*.txt
 .terraform
+.out
+*.tfstate
+
+

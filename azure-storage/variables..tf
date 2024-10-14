@@ -16,3 +16,21 @@ variable "azure_account_replication_type" {
   default     = "LRS"
 
 }
+
+variable "azure_resource_group_name" {
+  description = "Nome para o resource Group na Azure"
+  type        = string
+  default     = "rg-curso-terraform"
+}
+
+variable "azure_storage_account_name" {
+  description = "Nome da Storga account na Azure"
+  type        = string
+  default     = "fabiofrancesterraform"
+}
+
+variable "azure_container_name" {
+  description = "NOme do container na Azure"
+  type        = string
+  default     = "container-terraform"
+}
